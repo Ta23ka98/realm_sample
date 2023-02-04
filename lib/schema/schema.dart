@@ -11,7 +11,7 @@ class _Member {
   late List<String> skills;
 }
 
-@RealmModel
+@RealmModel()
 class _Department {
   @PrimaryKey()
   late ObjectId id;
